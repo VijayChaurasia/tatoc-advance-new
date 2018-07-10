@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22132" started-at="2018-06-28T10:57:47Z" finished-at="2018-06-28T10:58:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22132" started-at="2018-06-28T10:57:47Z" finished-at="2018-06-28T10:58:09Z">
+      <class name="com.qait.automation.tatoc_advance_maven.NewTest">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.qait.automation.tatoc_advance_maven.NewTest@77caeb3e]" name="before" is-config="true" duration-ms="19914" started-at="2018-06-28T10:57:47Z" finished-at="2018-06-28T10:58:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="step1_advanceclick()[pri:0, instance:com.qait.automation.tatoc_advance_maven.NewTest@77caeb3e]" name="step1_advanceclick" duration-ms="434" started-at="2018-06-28T10:58:07Z" finished-at="2018-06-28T10:58:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step1_advanceclick -->
+        <test-method status="PASS" signature="step2_menu()[pri:1, instance:com.qait.automation.tatoc_advance_maven.NewTest@77caeb3e]" name="step2_menu" duration-ms="41" started-at="2018-06-28T10:58:07Z" finished-at="2018-06-28T10:58:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step2_menu -->
+        <test-method status="PASS" signature="step2_ishovering_performed()[pri:2, instance:com.qait.automation.tatoc_advance_maven.NewTest@77caeb3e]" name="step2_ishovering_performed" duration-ms="388" started-at="2018-06-28T10:58:07Z" finished-at="2018-06-28T10:58:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step2_ishovering_performed -->
+        <test-method status="PASS" signature="step3check_connectivity()[pri:3, instance:com.qait.automation.tatoc_advance_maven.NewTest@77caeb3e]" name="step3check_connectivity" duration-ms="348" started-at="2018-06-28T10:58:07Z" finished-at="2018-06-28T10:58:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step3check_connectivity -->
+        <test-method status="PASS" signature="step3queryprocess()[pri:4, instance:com.qait.automation.tatoc_advance_maven.NewTest@77caeb3e]" name="step3queryprocess" duration-ms="956" started-at="2018-06-28T10:58:08Z" finished-at="2018-06-28T10:58:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step3queryprocess -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.qait.automation.tatoc_advance_maven.NewTest@77caeb3e]" name="after" is-config="true" duration-ms="0" started-at="2018-06-28T10:58:09Z" finished-at="2018-06-28T10:58:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.qait.automation.tatoc_advance_maven.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
