@@ -14,15 +14,16 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 <build>
+  <sourceDirectory>src</sourceDirectory>
       <plugins>
          <!-- Compiler plug-in -->
+        
          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.7.0</version>
             <configuration>
-               <source>${jdk.level}</source>
-               <target>${jdk.level}</target>
+               <source>1.8</source>
+               <target>1.8</target>
             </configuration>
          </plugin>
          <!-- Added Surefire Plugin configuration to execute tests -->
@@ -32,11 +33,8 @@
             <version>2.19.1</version>
             <configuration>
                <suiteXmlFiles>
-              <suiteXmlFile>patienttests.xml</suiteXmlFile>
+              <suiteXmlFile>testng.xml</suiteXmlFile>
                </suiteXmlFiles>
-               <systemPropertyVariables>
-                  <browserName>firefox</browserName>
-               </systemPropertyVariables>
             </configuration>
          </plugin>
       </plugins>
